@@ -1,0 +1,12 @@
+name: First Workflow
+
+on: [push]
+ 
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello World
+        run: echo "Hello, World!"
+      - name: Display some text
+        run: echo " the first step prints 'Hello, World!' to the console, and the second step displays some additional text."
