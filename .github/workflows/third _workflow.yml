@@ -8,7 +8,7 @@ jobs:
     steps:
       
       - name: List files amd Copy Repo
-        run: ls-la
+        run: ls-a
       - uses: actions/checkout@v4
       - name: List files 
         run: ls-a
