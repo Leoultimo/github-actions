@@ -7,12 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       
-      - name: Set up in Multiline
-        run: |
-          pwd
-          ls -a
-      - name: Set up in Multiline
-        run: |
-          pwd
-          whoami
+      - name: List files amd Copy Repo
+        run: ls-la
+      - uses: actions/checkout@v4
+      - name: List files 
+        run: ls-a
           
