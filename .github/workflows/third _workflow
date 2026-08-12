@@ -11,3 +11,8 @@ jobs:
         run: |
           pwd
           ls -a
+- name: Set up in Multiline
+        run: |
+          pwd
+          whoami
+          
