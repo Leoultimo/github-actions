@@ -8,7 +8,7 @@ jobs:
     steps:
       
       - name: List files 
-        run: ls -agfhdgfh
+        run: ls -a
     #  - uses: actions/checkout@v4
       - name: Copy files 
         run:  |
